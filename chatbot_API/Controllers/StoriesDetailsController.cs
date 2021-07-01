@@ -41,7 +41,7 @@ namespace chatbot_API.Controllers
             return storiesDetail;
         }
 
-        // PUT: api/StoriesDetails/5
+        // PUT: api/StoriesDetails/
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutStoriesDetail(int id, StoriesDetail storiesDetail)
